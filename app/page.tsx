@@ -134,9 +134,9 @@ export default function Home() {
         <section className="border-y border-white/5 bg-white/[0.02] py-10">
           <div className="mx-auto grid max-w-4xl grid-cols-3 gap-px divide-x divide-white/5 px-6 text-center">
             {[
-              { value: "10×", label: "Faster than traditional DD" },
+              { value: "12×", label: "Faster than traditional DD" },
               { value: "1000s", label: "Documents processed instantly" },
-              { value: "CHF 60k+", label: "Value in founding benefits" },
+              { value: "CHF 17M", label: "Average deal value" },
             ].map((stat) => (
               <div key={stat.label} className="px-6 py-2">
                 <p className="text-3xl font-bold tracking-tight text-white">{stat.value}</p>
