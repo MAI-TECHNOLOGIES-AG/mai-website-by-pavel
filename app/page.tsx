@@ -180,7 +180,7 @@ export default function Home() {
         </section>
 
         {/* ── Benefits ── */}
-        <section className="px-6 py-10 pb-28">
+        {/* <section className="px-6 py-10 pb-28">
           <div className="mx-auto max-w-5xl">
             <div className="mb-16 text-center">
               <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-indigo-400">
@@ -207,7 +207,7 @@ export default function Home() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* ── Contact Form ── */}
         <section id="contact" className="px-6 pb-32">
@@ -243,8 +243,8 @@ export default function Home() {
           </div>
           <p>© {new Date().getFullYear()} M&amp;A.i. All rights reserved.</p>
           <div className="flex gap-5">
-            <a href="#" className="transition-colors hover:text-white/60">Privacy</a>
-            <a href="#" className="transition-colors hover:text-white/60">Terms</a>
+            {/* <a href="#" className="transition-colors hover:text-white/60">Privacy</a>
+            <a href="#" className="transition-colors hover:text-white/60">Terms</a> */}
             <Link href="/imprint" className="transition-colors hover:text-white/60">Imprint</Link>
           </div>
         </div>
