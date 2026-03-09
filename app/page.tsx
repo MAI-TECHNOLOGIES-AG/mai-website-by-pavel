@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import AccessForm from "./components/AccessForm";
 
 const features = [
@@ -248,7 +249,7 @@ export default function Home() {
           <div className="flex gap-5">
             <a href="#" className="transition-colors hover:text-white/60">Privacy</a>
             <a href="#" className="transition-colors hover:text-white/60">Terms</a>
-            <a href="#" className="transition-colors hover:text-white/60">Contact</a>
+            <Link href="/imprint" className="transition-colors hover:text-white/60">Imprint</Link>
           </div>
         </div>
       </footer>
