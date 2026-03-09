@@ -50,7 +50,14 @@ export const metadata: Metadata = {
     title: "M&A.i — AI-Powered Due Diligence",
     description:
       "Transform weeks of due diligence into hours. M&A.i analyzes thousands of documents instantly, delivering institutional-grade reports.",
-    images: ["/social-preview.png"],
+    images: [
+      {
+        url: "/social-preview.png",
+        width: 1200,
+        height: 630,
+        alt: "M&A.i — AI-Powered Due Diligence",
+      },
+    ],
   },
 };
 
