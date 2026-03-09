@@ -1,6 +1,6 @@
 "use client";
 
-export default function AccessForm() {
+export default function ContactForm() {
   return (
     <form
       className="space-y-3 text-left"
@@ -33,11 +33,16 @@ export default function AccessForm() {
         <option value="corp" className="bg-[#0d0d1a]">Corporate</option>
         <option value="other" className="bg-[#0d0d1a]">Other</option>
       </select>
+      <textarea
+        rows={4}
+        placeholder="How can we help you?"
+        className="w-full resize-none rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white placeholder:text-white/30 focus:border-indigo-500/50 focus:outline-none focus:ring-1 focus:ring-indigo-500/30"
+      />
       <button
         type="submit"
         className="w-full rounded-xl bg-indigo-600 px-6 py-3.5 text-sm font-semibold text-white transition-all hover:bg-indigo-500 hover:shadow-[0_0_30px_rgba(99,102,241,0.5)]"
       >
-        Secure Early Access
+        Send Message
       </button>
     </form>
   );

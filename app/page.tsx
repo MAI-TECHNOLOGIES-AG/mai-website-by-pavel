@@ -71,10 +71,10 @@ export default function Home() {
             {/* <span className="text-lg font-semibold tracking-tight">M&amp;A.i</span> */}
           </div>
           <a
-            href="#access"
+            href="#contact"
             className="rounded-full bg-indigo-600 px-5 py-2 text-sm font-medium text-white transition-colors hover:bg-indigo-500"
           >
-            Secure Early Access
+            Get in Touch
           </a>
         </nav>
       </header>
@@ -89,7 +89,7 @@ export default function Home() {
           <div className="relative z-10 max-w-4xl">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-indigo-500/30 bg-indigo-500/10 px-4 py-1.5 text-xs font-medium text-indigo-300">
               <span className="h-1.5 w-1.5 rounded-full bg-indigo-400" />
-              Limited Early Access — Only 17 spots remaining
+              AI-Powered M&amp;A Intelligence
             </div>
 
             <h1 className="mb-6 text-5xl font-bold leading-[1.1] tracking-tight sm:text-6xl md:text-7xl">
@@ -108,10 +108,10 @@ export default function Home() {
 
             <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
               <a
-                href="#access"
+                href="#contact"
                 className="rounded-full bg-indigo-600 px-8 py-3.5 text-base font-medium text-white transition-all hover:bg-indigo-500 hover:shadow-[0_0_30px_rgba(99,102,241,0.4)]"
               >
-                Secure Early Access Now
+                Get in Touch
               </a>
               <a
                 href="#features"
@@ -184,11 +184,11 @@ export default function Home() {
           <div className="mx-auto max-w-5xl">
             <div className="mb-16 text-center">
               <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-indigo-400">
-                Early Access Member Benefits
+                Member Benefits
               </p>
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
                 Exclusive advantages,{" "}
-                <span className="text-white/40">only during launch</span>
+                <span className="text-white/40">built for professionals</span>
               </h2>
             </div>
 
@@ -209,28 +209,24 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ── CTA / Form ── */}
-        <section id="access" className="px-6 pb-32">
+        {/* ── Contact Form ── */}
+        <section id="contact" className="px-6 pb-32">
           <div className="mx-auto max-w-xl">
             <div className="relative overflow-hidden rounded-3xl border border-indigo-500/20 bg-gradient-to-b from-indigo-950/40 to-[#080810] p-10 text-center shadow-[0_0_80px_rgba(99,102,241,0.1)]">
               <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(99,102,241,0.12)_0%,_transparent_60%)]" />
 
               <div className="relative z-10">
-                <div className="mb-2 inline-flex items-center gap-2 rounded-full border border-indigo-500/30 bg-indigo-500/10 px-3 py-1 text-xs font-medium text-indigo-300">
-                  <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-indigo-400" />
-                  Spots filling fast
-                </div>
-                <h2 className="mb-2 mt-4 text-2xl font-bold tracking-tight sm:text-3xl">
-                  Secure Your Early Access
+                <h2 className="mb-2 text-2xl font-bold tracking-tight sm:text-3xl">
+                  Get in Touch
                 </h2>
                 <p className="mb-8 text-sm text-white/50">
-                  Limited spots available. Priority access granted on a first-come basis.
+                  Interested in M&amp;A.i? Reach out and we&apos;ll get back to you shortly.
                 </p>
 
                 <AccessForm />
 
                 <p className="mt-4 text-xs text-white/25">
-                  No credit card required. Zero spam, ever.
+                  We respect your privacy. Zero spam, ever.
                 </p>
               </div>
             </div>
