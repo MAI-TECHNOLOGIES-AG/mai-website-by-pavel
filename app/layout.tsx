@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
 import "./globals.css";
 
 const siteUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL ?? process.env.VERCEL_URL ?? "http://localhost:3000";
@@ -25,6 +25,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const playfair = Playfair_Display({
+  variable: "--font-cormorant",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
+
 export const metadata: Metadata = {
   metadataBase,
   title: "M&A.i — AI-Powered Due Diligence",
@@ -38,7 +44,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/social-preview-simple.png",
+        url: "/social-preview-3.png",
         width: 1200,
         height: 630,
         alt: "M&A.i — AI-Powered Due Diligence",
@@ -52,7 +58,7 @@ export const metadata: Metadata = {
       "Transform weeks of due diligence into hours. M&A.i analyzes thousands of documents instantly, delivering institutional-grade reports.",
     images: [
       {
-        url: "/social-preview-simple.png",
+        url: "/social-preview-3.png",
         width: 1200,
         height: 630,
         alt: "M&A.i — AI-Powered Due Diligence",
@@ -69,7 +75,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased`}
       >
         {children}
       </body>
