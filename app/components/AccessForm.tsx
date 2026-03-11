@@ -10,37 +10,37 @@ export default function ContactForm() {
         <input
           type="text"
           placeholder="Full Name"
-          className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white placeholder:text-white/30 focus:border-indigo-500/50 focus:outline-none focus:ring-1 focus:ring-indigo-500/30"
+          className="w-full border border-[#1a1a1a]/15 bg-white px-4 py-3 text-sm text-[#1a1a1a] placeholder:text-[#1a1a1a]/30 focus:border-[rgb(159,143,124)] focus:outline-none focus:ring-1 focus:ring-[rgb(159,143,124)]/30"
         />
         <input
           type="email"
           placeholder="Work Email"
-          className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white placeholder:text-white/30 focus:border-indigo-500/50 focus:outline-none focus:ring-1 focus:ring-indigo-500/30"
+          className="w-full border border-[#1a1a1a]/15 bg-white px-4 py-3 text-sm text-[#1a1a1a] placeholder:text-[#1a1a1a]/30 focus:border-[rgb(159,143,124)] focus:outline-none focus:ring-1 focus:ring-[rgb(159,143,124)]/30"
         />
       </div>
       <input
         type="text"
         placeholder="Company Name"
-        className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white placeholder:text-white/30 focus:border-indigo-500/50 focus:outline-none focus:ring-1 focus:ring-indigo-500/30"
+        className="w-full border border-[#1a1a1a]/15 bg-white px-4 py-3 text-sm text-[#1a1a1a] placeholder:text-[#1a1a1a]/30 focus:border-[rgb(159,143,124)] focus:outline-none focus:ring-1 focus:ring-[rgb(159,143,124)]/30"
       />
-      <select className="w-full cursor-pointer appearance-none rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white/70 focus:border-indigo-500/50 focus:outline-none focus:ring-1 focus:ring-indigo-500/30">
-        <option value="" className="bg-[#0d0d1a]">Company Type</option>
-        <option value="pe" className="bg-[#0d0d1a]">Private Equity</option>
-        <option value="ib" className="bg-[#0d0d1a]">Investment Bank</option>
-        <option value="ma" className="bg-[#0d0d1a]">M&A Advisory</option>
-        <option value="law" className="bg-[#0d0d1a]">Law Firm</option>
-        <option value="fo" className="bg-[#0d0d1a]">Family Office</option>
-        <option value="corp" className="bg-[#0d0d1a]">Corporate</option>
-        <option value="other" className="bg-[#0d0d1a]">Other</option>
+      <select className="w-full cursor-pointer appearance-none border border-[#1a1a1a]/15 bg-white px-4 py-3 text-sm text-[#1a1a1a]/60 focus:border-[rgb(159,143,124)] focus:outline-none focus:ring-1 focus:ring-[rgb(159,143,124)]/30">
+        <option value="" className="bg-white text-[#1a1a1a]">Company Type</option>
+        <option value="pe" className="bg-white text-[#1a1a1a]">Private Equity</option>
+        <option value="ib" className="bg-white text-[#1a1a1a]">Investment Bank</option>
+        <option value="ma" className="bg-white text-[#1a1a1a]">M&amp;A Advisory</option>
+        <option value="law" className="bg-white text-[#1a1a1a]">Law Firm</option>
+        <option value="fo" className="bg-white text-[#1a1a1a]">Family Office</option>
+        <option value="corp" className="bg-white text-[#1a1a1a]">Corporate</option>
+        <option value="other" className="bg-white text-[#1a1a1a]">Other</option>
       </select>
       <textarea
         rows={4}
         placeholder="How can we help you?"
-        className="w-full resize-none rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white placeholder:text-white/30 focus:border-indigo-500/50 focus:outline-none focus:ring-1 focus:ring-indigo-500/30"
+        className="w-full resize-none border border-[#1a1a1a]/15 bg-white px-4 py-3 text-sm text-[#1a1a1a] placeholder:text-[#1a1a1a]/30 focus:border-[rgb(159,143,124)] focus:outline-none focus:ring-1 focus:ring-[rgb(159,143,124)]/30"
       />
       <button
         type="submit"
-        className="w-full rounded-xl bg-indigo-600 px-6 py-3.5 text-sm font-semibold text-white transition-all hover:bg-indigo-500 hover:shadow-[0_0_30px_rgba(99,102,241,0.5)]"
+        className="w-full border border-[rgb(159,143,124)] bg-[rgb(159,143,124)] px-6 py-3.5 text-xs font-medium tracking-widest uppercase text-white transition-colors hover:bg-[rgb(140,125,107)] hover:border-[rgb(140,125,107)]"
       >
         Send Message
       </button>
