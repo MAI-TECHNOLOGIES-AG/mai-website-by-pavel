@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/social-preview-simple.png",
+        url: "/social-preview-3.png",
         width: 1200,
         height: 630,
         alt: "M&A.i — AI-Powered Due Diligence",
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
       "Transform weeks of due diligence into hours. M&A.i analyzes thousands of documents instantly, delivering institutional-grade reports.",
     images: [
       {
-        url: "/social-preview-simple.png",
+        url: "/social-preview-3.png",
         width: 1200,
         height: 630,
         alt: "M&A.i — AI-Powered Due Diligence",
