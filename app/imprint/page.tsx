@@ -37,7 +37,7 @@ export default function ImprintPage() {
 
             <div>
               <h2 className="text-base font-semibold text-white">Registered Address:</h2>
-              <p className="mt-2">MAI Technologies AG, Färberstrasse 8, 8004 Zürich, Switzerland</p>
+              <p className="mt-2">MAI Technologies AG, Färberstrasse 6, 8008 Zürich, Switzerland</p>
             </div>
 
             <p>
