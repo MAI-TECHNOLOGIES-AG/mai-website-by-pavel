@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/social-preview-3.png",
+        url: "/social-preview-4.png",
         width: 1200,
         height: 630,
         alt: "M&AI — Stealth Fintech",
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
       "Building the future of financial decision making. Quietly revolutionizing the industry with advanced AI.",
     images: [
       {
-        url: "/social-preview-3.png",
+        url: "/social-preview-4.png",
         width: 1200,
         height: 630,
         alt: "M&AI — Stealth Fintech",
