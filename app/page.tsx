@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import AccessForm from "./components/AccessForm";
+import AdvisoryTeamSection from "./components/AdvisoryTeamSection";
 import FoundingTeamSection from "./components/FoundingTeamSection";
 import ParallaxHero from "./components/ParallaxHero";
 
@@ -100,6 +101,20 @@ export default function Home() {
         </div>
         {/* ── Features ── */}
         <FoundingTeamSection />
+
+        {/* Visual divider between hero and stats */}
+        <div aria-hidden="true" className="relative h-10 bg-black pb-10">
+          <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/40 to-transparent" />
+          <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-[rgb(216,199,176)]/50 to-transparent" />
+        </div>
+        <AdvisoryTeamSection />
+
+        {/* Visual divider between hero and stats */}
+        <div aria-hidden="true" className="relative h-10 bg-black">
+          <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/40 to-transparent" />
+          <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-[rgb(216,199,176)]/50 to-transparent" />
+        </div>
+        <div className="h-15 bg-black"></div>
 
         {/* ── Contact Form ── */}
         <section id="contact" className="bg-[#f3f0ec] px-6 pb-32 pt-24">
