@@ -44,9 +44,6 @@ export default function Home() {
               Due Diligence
             </h1>
 
-            <p className="mx-auto mb-4 max-w-2xl text-xl font-light text-white/80 sm:text-2xl 2xl:text-4xl 2xl:max-w-4xl" style={{ fontFamily: 'var(--font-cormorant), "Playfair Display", serif' }}>
-              Stealth Mode
-            </p>
             <p className="mx-auto mb-12 max-w-xl text-sm leading-relaxed text-white/50 2xl:text-base 2xl:max-w-2xl 2xl:mb-16">
               We are building the future of M&amp;A due diligence. Quietly revolutionizing the industry with advanced AI and deep tech solutions.
             </p>
@@ -68,17 +65,14 @@ export default function Home() {
           </div>
 
           {/* Scroll indicator */}
-          <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/30">
+          {/* <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/30">
             <span className="text-[10px] tracking-[0.25em] uppercase">Scroll</span>
             <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
               <path d="M8 3v10M4 9l4 4 4-4" />
             </svg>
-          </div>
-        </section>
-
-        {/* ── Stats bar ── */}
-        <section className="border-y border-[#1a1a1a]/8 bg-[#faf8f5] py-12">
-          <div className="mx-auto grid max-w-4xl grid-cols-3 gap-px divide-x divide-[#1a1a1a]/8 px-6 text-center 2xl:max-w-6xl">
+          </div> */}
+          {/* ── Stats bar ── */}
+          <div className="absolute bottom-10 left-1/2 -translate-x-1/2 grid max-w-4xl grid-cols-3 gap-20 divide-x divide-white/10 px-6 text-center 2xl:max-w-6xl">
             {[
               { value: "Stealth", label: "Current Status" },
               { value: "Fintech", label: "Industry Sector" },
@@ -87,16 +81,23 @@ export default function Home() {
               <div key={stat.label} className="px-6 py-2">
                 <p
                   className="text-3xl font-light tracking-tight 2xl:text-5xl"
-                  style={{ fontFamily: 'var(--font-cormorant), "Playfair Display", serif', color: "rgb(159,143,124)" }}
+                  style={{ fontFamily: 'var(--font-cormorant), "Playfair Display", serif', color: "rgb(216,199,176)" }}
                 >
                   {stat.value}
                 </p>
-                <p className="mt-1 text-xs tracking-wide text-[#1a1a1a]/40 uppercase 2xl:text-sm 2xl:mt-2">{stat.label}</p>
+                <p className="mt-1 text-xs tracking-wide text-white/50 uppercase 2xl:text-sm 2xl:mt-2">{stat.label}</p>
               </div>
             ))}
           </div>
         </section>
 
+
+
+        {/* Visual divider between hero and stats */}
+        <div aria-hidden="true" className="relative h-10 bg-black">
+          <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/40 to-transparent" />
+          <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-[rgb(216,199,176)]/50 to-transparent" />
+        </div>
         {/* ── Features ── */}
         <FoundingTeamSection />
 
