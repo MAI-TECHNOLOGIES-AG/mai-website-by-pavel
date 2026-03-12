@@ -24,7 +24,7 @@ const teamMembers = [
     photo: "/team/pavel-svitek.jpg",
   },
   {
-    name: "Sharon Wulff - Head of AI",
+    name: "Dr. Sharon Wulff - Head of AI",
     description:
       "Machine learning leader with a PhD from ETH Zurich who has built scalable, high-impact AI systems as a former CTO.",
     photo: "/team/sharon-wulff.jpg",
