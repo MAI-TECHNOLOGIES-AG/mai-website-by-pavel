@@ -62,8 +62,8 @@ export default function Home() {
         <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-6 text-center">
           {/* Background image with parallax */}
           <ParallaxHero />
-          {/* Dark overlay for text legibility */}
-          <div className="absolute inset-0 bg-black/40" />
+          {/* Dark overlay for text legibility - Removed as background is now black */}
+          {/* <div className="absolute inset-0 bg-black/40" /> */}
 
           <div className="relative z-10 max-w-4xl 2xl:max-w-6xl">
             <p className="mb-6 text-xs font-medium tracking-[0.3em] uppercase text-white/60 2xl:text-sm 2xl:mb-8">
