@@ -110,6 +110,7 @@ export default function ContactForm() {
         <option value="law" className="bg-white text-[#1a1a1a]">Law Firm</option>
         <option value="fo" className="bg-white text-[#1a1a1a]">Family Office</option>
         <option value="corp" className="bg-white text-[#1a1a1a]">Corporate</option>
+        <option value="serv" className="bg-white text-[#1a1a1a]">Professional Services</option>
         <option value="other" className="bg-white text-[#1a1a1a]">Other</option>
       </select>
       <textarea
@@ -131,9 +132,8 @@ export default function ContactForm() {
       </button>
       {submitState !== "idle" && (
         <p
-          className={`text-sm ${
-            submitState === "success" ? "text-black" : "text-red-300"
-          }`}
+          className={`text-sm ${submitState === "success" ? "text-black" : "text-red-300"
+            }`}
         >
           {feedbackMessage}
         </p>

@@ -1,5 +1,5 @@
 ---
-name: Mandai Website Redesign
+name: M&AI Website Redesign
 overview: "Redesign the M&A.i website to align with the attached reference: a full-bleed hero photo, elegant serif typography, light cream content sections, and the warm taupe accent color replacing the current dark/indigo palette."
 todos:
   - id: globals-css
@@ -17,7 +17,7 @@ todos:
 isProject: false
 ---
 
-# Mandai Website Redesign
+# M&AI Website Redesign
 
 ## Design Direction
 

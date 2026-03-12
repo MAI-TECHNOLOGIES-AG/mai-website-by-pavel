@@ -10,9 +10,9 @@ const features = [
         <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
       </svg>
     ),
-    title: "Lightning-Fast Analysis",
+    title: "Advanced Analytics",
     description:
-      "Process thousands of documents in minutes. Generate comprehensive reports in hours, not weeks.",
+      "Proprietary algorithms processing data at unprecedented speeds to deliver real-time insights.",
   },
   {
     icon: (
@@ -21,9 +21,9 @@ const features = [
         <path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z" />
       </svg>
     ),
-    title: "Institutional-Grade Quality",
+    title: "Enterprise Architecture",
     description:
-      "AI-powered analysis meets industry best practices. Nothing falls through the cracks.",
+      "Built for the most demanding financial institutions with scalability and reliability at its core.",
   },
   {
     icon: (
@@ -32,9 +32,9 @@ const features = [
         <path d="M7 11V7a5 5 0 0 1 10 0v4" />
       </svg>
     ),
-    title: "Bank-Grade Security",
+    title: "Uncompromised Security",
     description:
-      "Enterprise-level encryption and security. Your data never leaves your control.",
+      "State-of-the-art encryption and security protocols. Your data privacy is our top priority.",
   },
 ];
 
@@ -46,13 +46,13 @@ export default function Home() {
       <header className="absolute top-0 left-0 right-0 z-50">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5 2xl:max-w-screen-2xl 2xl:px-16 2xl:py-7">
           <div className="flex items-center gap-3">
-            <Image src="/logo-white.svg" alt="M&A.i logo" width={36} height={36} className="2xl:w-12 2xl:h-12" />
+            <Image src="/logo-white.svg" alt="M&AI logo" width={36} height={36} className="2xl:w-12 2xl:h-12" />
           </div>
           <a
             href="#contact"
             className="rounded-none border border-white/60 px-6 py-2 text-xs font-medium tracking-widest uppercase text-white transition-colors hover:bg-white/10 2xl:px-8 2xl:py-3 2xl:text-sm"
           >
-            Get in Touch
+            Request Access
           </a>
         </nav>
       </header>
@@ -67,23 +67,22 @@ export default function Home() {
 
           <div className="relative z-10 max-w-4xl 2xl:max-w-6xl">
             <p className="mb-6 text-xs font-medium tracking-[0.3em] uppercase text-white/60 2xl:text-sm 2xl:mb-8">
-              AI-Powered M&amp;A Intelligence
+              Stealth Fintech Innovation
             </p>
 
             <h1
               className="mb-6 text-5xl font-light leading-[1.1] tracking-tight text-white sm:text-6xl md:text-7xl 2xl:text-9xl"
               style={{ fontFamily: 'var(--font-cormorant), "Playfair Display", serif' }}
             >
-              AI-Powered M&amp;A{" "}
+              AI-Powered <br />M&amp;A{" "}
               Due Diligence
             </h1>
 
             <p className="mx-auto mb-4 max-w-2xl text-xl font-light text-white/80 sm:text-2xl 2xl:text-4xl 2xl:max-w-4xl" style={{ fontFamily: 'var(--font-cormorant), "Playfair Display", serif' }}>
-              10× Faster. Zero Compromise.
+              Stealth Mode
             </p>
             <p className="mx-auto mb-12 max-w-xl text-sm leading-relaxed text-white/50 2xl:text-base 2xl:max-w-2xl 2xl:mb-16">
-              Transform weeks of due diligence into hours. Analyze thousands of documents instantly,
-              delivering institutional-grade reports that give you the competitive edge.
+              We are building the future of M&amp;A due diligence. Quietly revolutionizing the industry with advanced AI and deep tech solutions.
             </p>
 
             <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
@@ -91,7 +90,7 @@ export default function Home() {
                 href="#contact"
                 className="border border-[rgb(159,143,124)] bg-[rgb(159,143,124)] px-10 py-3.5 text-xs font-medium tracking-widest uppercase text-white transition-colors hover:bg-[rgb(140,125,107)] hover:border-[rgb(140,125,107)] 2xl:px-14 2xl:py-5 2xl:text-sm"
               >
-                Get in Touch
+                Request Access
               </a>
               <a
                 href="#features"
@@ -115,9 +114,9 @@ export default function Home() {
         <section className="border-y border-[#1a1a1a]/8 bg-[#faf8f5] py-12">
           <div className="mx-auto grid max-w-4xl grid-cols-3 gap-px divide-x divide-[#1a1a1a]/8 px-6 text-center 2xl:max-w-6xl">
             {[
-              { value: "12×", label: "Faster than traditional DD" },
-              { value: "1000s", label: "Documents processed instantly" },
-              { value: "CHF 17M", label: "Average deal value" },
+              { value: "Stealth", label: "Current Status" },
+              { value: "Fintech", label: "Industry Sector" },
+              { value: "AI-First", label: "Core Technology" },
             ].map((stat) => (
               <div key={stat.label} className="px-6 py-2">
                 <p
@@ -137,16 +136,16 @@ export default function Home() {
           <div className="mx-auto max-w-5xl 2xl:max-w-7xl">
             <div className="mb-16 text-center">
               <p className="mb-4 text-[10px] font-medium uppercase tracking-[0.3em] text-[rgb(159,143,124)] 2xl:text-xs">
-                Why M&amp;A.i
+                Why Us
               </p>
               <h2
                 className="text-4xl font-light tracking-tight text-[#1a1a1a] sm:text-5xl 2xl:text-7xl"
                 style={{ fontFamily: 'var(--font-cormorant), "Playfair Display", serif' }}
               >
-                The Future of M&amp;A Due Diligence
+                The Future of M&amp;A
               </h2>
               <p className="mx-auto mt-5 max-w-lg text-sm leading-relaxed text-[#1a1a1a]/50 2xl:text-base 2xl:max-w-xl">
-                Join the elite group of M&amp;A professionals revolutionizing deal execution.
+                Join the waitlist for the next big thing in fintech.
               </p>
             </div>
 
@@ -189,7 +188,7 @@ export default function Home() {
                 Get in Touch
               </h2>
               <p className="text-sm text-[#1a1a1a]/50 2xl:text-base">
-                Interested in M&amp;A.i? Reach out and we&apos;ll get back to you shortly.
+                Interested in what we are building? Reach out and we&apos;ll get back to you shortly.
               </p>
             </div>
 
@@ -206,10 +205,10 @@ export default function Home() {
       <footer className="border-t border-[#1a1a1a]/8 bg-[#faf8f5] px-6 py-10">
         <div className="mx-auto flex max-w-5xl flex-col items-center justify-between gap-4 text-xs text-[#1a1a1a]/35 sm:flex-row 2xl:max-w-screen-2xl 2xl:px-10 2xl:text-sm">
           <div className="flex items-center gap-2.5">
-            <Image src="/logo.svg" alt="M&A.i" width={20} height={20} className="opacity-40" />
-            <span className="font-medium text-[#1a1a1a]/45 tracking-wide">M&amp;A.i</span>
+            <Image src="/logo.svg" alt="M&AI" width={20} height={20} className="opacity-40" />
+            <span className="font-medium text-[#1a1a1a]/45 tracking-wide">M&AI</span>
           </div>
-          <p>© {new Date().getFullYear()} M&amp;A.i. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} M&AI. All rights reserved.</p>
           <div className="flex gap-5">
             <Link href="/imprint" className="tracking-wide transition-colors hover:text-[#1a1a1a]/70">Imprint</Link>
           </div>
