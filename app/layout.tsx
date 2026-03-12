@@ -33,35 +33,35 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   metadataBase,
-  title: "M&A.i — AI-Powered Due Diligence",
-  description: "Transform weeks of due diligence into hours. M&A.i analyzes thousands of documents instantly, delivering institutional-grade reports.",
+  title: "M&AI — Stealth Fintech",
+  description: "Building the future of financial decision making. Quietly revolutionizing the industry with advanced AI.",
   openGraph: {
-    title: "M&A.i — AI-Powered Due Diligence",
+    title: "M&AI — Stealth Fintech",
     description:
-      "Transform weeks of due diligence into hours. M&A.i analyzes thousands of documents instantly, delivering institutional-grade reports.",
+      "Building the future of financial decision making. Quietly revolutionizing the industry with advanced AI.",
     url: normalizedSiteUrl,
-    siteName: "M&A.i",
+    siteName: "M&AI",
     type: "website",
     images: [
       {
         url: "/social-preview-3.png",
         width: 1200,
         height: 630,
-        alt: "M&A.i — AI-Powered Due Diligence",
+        alt: "M&AI — Stealth Fintech",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "M&A.i — AI-Powered Due Diligence",
+    title: "M&AI — Stealth Fintech",
     description:
-      "Transform weeks of due diligence into hours. M&A.i analyzes thousands of documents instantly, delivering institutional-grade reports.",
+      "Building the future of financial decision making. Quietly revolutionizing the industry with advanced AI.",
     images: [
       {
         url: "/social-preview-3.png",
         width: 1200,
         height: 630,
-        alt: "M&A.i — AI-Powered Due Diligence",
+        alt: "M&AI — Stealth Fintech",
       },
     ],
   },
