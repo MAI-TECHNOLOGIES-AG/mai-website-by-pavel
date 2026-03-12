@@ -133,7 +133,7 @@ export default function Home() {
         <div className="mx-auto flex max-w-5xl flex-col items-center justify-between gap-4 text-xs text-[#1a1a1a]/35 sm:flex-row 2xl:max-w-screen-2xl 2xl:px-10 2xl:text-sm">
           <div className="flex items-center gap-2.5">
             <Image src="/logo.svg" alt="M&AI" width={20} height={20} className="opacity-40" />
-            <span className="font-medium text-[#1a1a1a]/45 tracking-wide">M&AI</span>
+            <span className="font-medium text-[#1a1a1a]/45 tracking-wide">M&AI Technologies AG</span>
           </div>
           <p>© {new Date().getFullYear()} M&AI. All rights reserved.</p>
           <div className="flex gap-5">
