@@ -26,66 +26,60 @@ export default function Home() {
 
       <main>
         {/* ── Hero ── */}
-        <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-6 text-center">
+        <section className="relative flex min-h-screen flex-col overflow-hidden px-6 pb-10 pt-28 text-center sm:px-8 2xl:pt-36 [@media(min-width:2560px)]:min-h-[2160px] [@media(min-width:2560px)]:px-12 [@media(min-width:2560px)]:pb-16 [@media(min-width:2560px)]:pt-44">
           {/* Background image with parallax */}
           <ParallaxHero />
           {/* Dark overlay for text legibility - Removed as background is now black */}
           {/* <div className="absolute inset-0 bg-black/40" /> */}
 
-          <div className="relative z-10 max-w-4xl 2xl:max-w-6xl">
-            <p className="mb-6 text-xs font-medium tracking-[0.3em] uppercase text-white/60 2xl:text-sm 2xl:mb-8">
-              Stealth Fintech Innovation
-            </p>
+          <div className="relative z-10 mx-auto flex w-full max-w-4xl flex-1 flex-col items-center justify-center 2xl:max-w-6xl [@media(min-width:2560px)]:max-w-[1800px]">
+            <div>
+              <p className="mb-6 text-xs font-medium tracking-[0.3em] uppercase text-white/60 2xl:mb-8 2xl:text-sm [@media(min-width:2560px)]:text-base">
+                Stealth Fintech Innovation
+              </p>
 
-            <h1
-              className="mb-6 text-5xl font-light leading-[1.1] tracking-tight text-white sm:text-6xl md:text-7xl 2xl:text-9xl"
-              style={{ fontFamily: 'var(--font-cormorant), "Playfair Display", serif' }}
-            >
-              AI-Powered M&amp;A
-            </h1>
-
-            <p className="mx-auto mb-12 max-w-xl text-sm leading-relaxed text-white/50 2xl:text-base 2xl:max-w-2xl 2xl:mb-16">
-              We are building the future of M&amp;A infrastructure. Quietly revolutionizing the industry with advanced AI and deep tech solutions.
-            </p>
-
-            <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
-              <a
-                href="#contact"
-                className="border border-[rgb(159,143,124)] bg-[rgb(159,143,124)] px-10 py-3.5 text-xs font-medium tracking-widest uppercase text-white transition-colors hover:bg-[rgb(140,125,107)] hover:border-[rgb(140,125,107)] 2xl:px-14 2xl:py-5 2xl:text-sm"
+              <h1
+                className="mb-6 text-[clamp(3rem,8vw,9rem)] font-light leading-[1.1] tracking-tight text-white"
+                style={{ fontFamily: 'var(--font-cormorant), "Playfair Display", serif' }}
               >
-                Request Access
-              </a>
-              <a
-                href="#features"
-                className="border border-white/30 px-10 py-3.5 text-xs font-medium tracking-widest uppercase text-white/70 transition-colors hover:border-white/60 hover:text-white 2xl:px-14 2xl:py-5 2xl:text-sm"
-              >
-                Learn More
-              </a>
+                AI-Powered M&amp;A
+              </h1>
+
+              <p className="mx-auto mb-12 max-w-xl text-sm leading-relaxed text-white/50 2xl:mb-16 2xl:max-w-2xl 2xl:text-base [@media(min-width:2560px)]:max-w-3xl [@media(min-width:2560px)]:text-lg">
+                We are building the future of M&amp;A infrastructure. Quietly revolutionizing the industry with advanced AI and deep tech solutions.
+              </p>
+
+              <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
+                <a
+                  href="#contact"
+                  className="border border-[rgb(159,143,124)] bg-[rgb(159,143,124)] px-10 py-3.5 text-xs font-medium tracking-widest uppercase text-white transition-colors hover:border-[rgb(140,125,107)] hover:bg-[rgb(140,125,107)] 2xl:px-14 2xl:py-5 2xl:text-sm [@media(min-width:2560px)]:px-16 [@media(min-width:2560px)]:py-6 [@media(min-width:2560px)]:text-base"
+                >
+                  Request Access
+                </a>
+                <a
+                  href="#features"
+                  className="border border-white/30 px-10 py-3.5 text-xs font-medium tracking-widest uppercase text-white/70 transition-colors hover:border-white/60 hover:text-white 2xl:px-14 2xl:py-5 2xl:text-sm [@media(min-width:2560px)]:px-16 [@media(min-width:2560px)]:py-6 [@media(min-width:2560px)]:text-base"
+                >
+                  Learn More
+                </a>
+              </div>
             </div>
           </div>
 
-          {/* Scroll indicator */}
-          {/* <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/30">
-            <span className="text-[10px] tracking-[0.25em] uppercase">Scroll</span>
-            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
-              <path d="M8 3v10M4 9l4 4 4-4" />
-            </svg>
-          </div> */}
-          {/* ── Stats bar ── */}
-          <div className="absolute bottom-10 left-1/2 -translate-x-1/2 grid max-w-4xl grid-cols-3 gap-20 divide-x divide-white/10 px-6 text-center 2xl:max-w-6xl">
+          <div className="relative z-10 mx-auto mt-8 grid w-full max-w-4xl grid-cols-3 gap-8 divide-x divide-white/10 px-2 text-center sm:gap-12 2xl:max-w-6xl 2xl:gap-20 [@media(min-width:2560px)]:max-w-[1900px] [@media(min-width:2560px)]:gap-28 [@media(min-width:2560px)]:pb-6">
             {[
               { value: "Stealth", label: "Current Status" },
               { value: "Fintech", label: "Industry Sector" },
               { value: "AI-First", label: "Core Technology" },
             ].map((stat) => (
-              <div key={stat.label} className="px-6 py-2">
+              <div key={stat.label} className="px-3 py-2 sm:px-6">
                 <p
-                  className="text-3xl font-light tracking-tight 2xl:text-5xl"
+                  className="text-2xl font-light tracking-tight sm:text-3xl 2xl:text-5xl [@media(min-width:2560px)]:text-6xl"
                   style={{ fontFamily: 'var(--font-cormorant), "Playfair Display", serif', color: "rgb(216,199,176)" }}
                 >
                   {stat.value}
                 </p>
-                <p className="mt-1 text-xs tracking-wide text-white/50 uppercase 2xl:text-sm 2xl:mt-2">{stat.label}</p>
+                <p className="mt-1 text-[10px] tracking-wide text-white/50 uppercase sm:text-xs 2xl:mt-2 2xl:text-sm [@media(min-width:2560px)]:text-base">{stat.label}</p>
               </div>
             ))}
           </div>
