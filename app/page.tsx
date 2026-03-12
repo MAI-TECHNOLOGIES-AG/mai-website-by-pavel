@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import AccessForm from "./components/AccessForm";
+import FoundingTeamSection from "./components/FoundingTeamSection";
 import ParallaxHero from "./components/ParallaxHero";
 
 export default function Home() {
@@ -97,7 +98,7 @@ export default function Home() {
         </section>
 
         {/* ── Features ── */}
-        {/* <FutureOfMASection /> */}
+        <FoundingTeamSection />
 
         {/* ── Contact Form ── */}
         <section id="contact" className="bg-[#f3f0ec] px-6 pb-32 pt-24">
