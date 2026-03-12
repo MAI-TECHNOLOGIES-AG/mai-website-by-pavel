@@ -10,7 +10,7 @@ export default function Home() {
     <div className="min-h-screen bg-[#faf8f5] text-[#1a1a1a] selection:bg-[rgb(159,143,124)]/30">
 
       {/* ── Nav ── */}
-      <header className="absolute top-0 left-0 right-0 z-50">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-black/50 backdrop-blur-sm">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5 2xl:max-w-screen-2xl 2xl:px-16 2xl:py-7">
           <div className="flex items-center gap-3">
             <Image src="/logo-white.svg" alt="M&AI logo" width={36} height={36} className="2xl:w-12 2xl:h-12" />
@@ -41,12 +41,11 @@ export default function Home() {
               className="mb-6 text-5xl font-light leading-[1.1] tracking-tight text-white sm:text-6xl md:text-7xl 2xl:text-9xl"
               style={{ fontFamily: 'var(--font-cormorant), "Playfair Display", serif' }}
             >
-              AI-Powered <br />M&amp;A{" "}
-              Due Diligence
+              AI-Powered M&amp;A
             </h1>
 
             <p className="mx-auto mb-12 max-w-xl text-sm leading-relaxed text-white/50 2xl:text-base 2xl:max-w-2xl 2xl:mb-16">
-              We are building the future of M&amp;A due diligence. Quietly revolutionizing the industry with advanced AI and deep tech solutions.
+              We are building the future of M&amp;A infrastructure. Quietly revolutionizing the industry with advanced AI and deep tech solutions.
             </p>
 
             <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
