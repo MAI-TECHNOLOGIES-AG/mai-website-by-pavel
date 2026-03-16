@@ -4,7 +4,7 @@ const teamMembers = [
   {
     name: "Jeremy Hayman - CEO",
     description:
-      "Built and scaled and exited two companies, managed $600M AUM for UHNWIs, connects capital with top M&A decision-makers.",
+      "Serial entrepreneur with 10+ years of experience across financial markets and investments.",
     photo: "/team/jeremy-hayman.jpg",
   },
   {
