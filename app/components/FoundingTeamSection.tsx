@@ -29,12 +29,6 @@ const teamMembers = [
       "Machine learning leader with a PhD from ETH Zurich who has built scalable, high-impact AI systems as a former CTO.",
     photo: "/team/sharon-wulff.jpg",
   },
-  {
-    name: "Antoine Fourmont-Fingal - Head of Product",
-    description:
-      "Experienced product leader who has scaled ecommerce and fintech products across Asia and the Middle East, driving significant growth and commercial impact.",
-    photo: "/team/antoine-fourmont-fingal.jpg",
-  },
 ];
 
 export default function FoundingTeamSection() {
